@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ume-expo",
+    "name": "ume",
     "slug": "ume-expo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ume.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26d0830d-2bff-453f-9637-71785acf0011"
+      }
+    },
+    "owner": "umeapp"
   }
 }
